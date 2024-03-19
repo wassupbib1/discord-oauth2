@@ -30,7 +30,7 @@ router.get('/auth/discord/login', async ctx => {
   const url =
     'https://discord.com/api/oauth2/authorize?client_id=1057732287862685796&redirect_uri=http%3A%2F%2Flocalhost%3A4000%2Fauth%2Fdiscord%2Fcallback&response_type=code&scope=identify';
 
-  ctx.redirect(url);
+  ctx.redirect(url);https://discord.com/oauth2/authorize?client_id=1217480325081595986&permissions=8&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A4000%2Fauth%2Fdiscord%2Fcallback&scope=identify+bot
 });
 
 router.get('/auth/discord/callback', async ctx => {
